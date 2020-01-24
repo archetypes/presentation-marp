@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "marp --html=true --bespoke.osc=false --bespoke.progress=true -ps -I .",
+    "build": "marp --pdf --html --allow-local-files main.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.17.0"
+  }
+}
